@@ -1,0 +1,82 @@
+.banner {
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 15%;
+  color: #1a1a1a;
+  background-color: #fffff2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+
+.banner p {
+  width: 90%;
+  max-width: 900px;
+  font-size: 20px;
+  line-height: 1.9rem;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+.banner-button-container {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-button-container button {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+/* First button: solid yellow */
+.banner-button-container button:first-child {
+  background-color: #c7d9dd;
+  color: black;
+  border: 2px solid #c7d9dd;
+}
+
+.banner-button-container button:first-child:hover {
+  background-color: transparent;
+  color: #adb2d4;
+  transform: scale(1.03);
+}
+
+/* Second button: outlined yellow */
+.banner-button-container button:last-child {
+  background-color: transparent;
+  color: #c7d9dd;
+  border: 2px solid #c7d9dd;
+}
+
+.banner-button-container button:last-child:hover {
+  background-color: #adb2d4;
+  color: black;
+  transform: scale(1.03);
+}
+
+/* Highlighted word style */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .banner {
+    padding-top: 20%;
+    height: auto;
+  }
+
+  .banner p {
+    font-size: 16px;
+    line-height: 1.6rem;
+    width: 95%;
+  }
+}

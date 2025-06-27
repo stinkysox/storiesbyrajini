@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="footer-socials">
           <a
-            href="https://www.instagram.com/pramod.photogrphy/"
+            href="https://www.instagram.com/storiesbyrajini?igsh=amxnb2RrazlvMmxq"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           ></a>
           <a
-            href="https://wa.me/919535440990"
+            href="https://wa.me/+917013722264"
             target="_blank"
             rel="noopener noreferrer"
           >

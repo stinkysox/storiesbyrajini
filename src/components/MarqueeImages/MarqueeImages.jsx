@@ -20,6 +20,16 @@ const MarqueeImages = () => {
       {
         imageUrl: "https://i.postimg.cc/wBWTYdmj/Engagment-RJK09919.jpg",
       },
+      {
+        imageUrl: "https://i.postimg.cc/YqjGy2FT/Engagment-020.jpg",
+      },
+
+      {
+        imageUrl: "https://i.postimg.cc/LXPQVVs8/RJK02956.jpg",
+      },
+      {
+        imageUrl: "https://i.postimg.cc/SNdTVRmC/DTP01106.jpg ",
+      },
     ],
     "Left Images": [
       {
@@ -36,6 +46,12 @@ const MarqueeImages = () => {
       },
       {
         imageUrl: "https://i.postimg.cc/zBKpZLY5/Wedding-RJK03241.jpg",
+      },
+      {
+        imageUrl: "https://i.postimg.cc/d1GnCtW7/DTP01326.jpg ",
+      },
+      {
+        imageUrl: "https://i.postimg.cc/zXzpLNTB/ABI02713.jpg ",
       },
     ],
   };

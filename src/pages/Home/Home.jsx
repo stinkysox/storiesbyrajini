@@ -36,7 +36,6 @@ const Home = () => {
         title="Stories inStills"
         backgroundImage="https://i.pinimg.com/736x/27/ca/2c/27ca2cb9634c5891aaec994b70961f66.jpg"
       />
-      <GridComponent />
       <OurServices />
       <BannerBottom
         title="Echoes ofEmotion"
